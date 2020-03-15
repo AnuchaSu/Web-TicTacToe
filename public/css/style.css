@@ -1,0 +1,72 @@
+.profile-picture img {
+    width:50%;
+    margin: 0 auto;
+}
+
+.profile-info{
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.profile-info .profile-username{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.profile-info .profile-score{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.bg-profile{
+    background-color: #fff;
+}
+
+.list-group-item .user-info{
+    position: relative;
+    top: 15px;
+}
+
+.list-group-item .img-responsive {
+    float: left;
+    margin-right: 20px;
+}
+
+.list-group{
+    margin-top: 10px;
+}
+
+.user{
+    color:#000;
+}
+
+.score{
+    color:#000;
+}
+
+.custom-bg-list{
+    background-color: #fff;
+}
+
+.btn_custom{
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer; 
+    margin-top: 1px;
+    margin-left: 55px;
+}
+
+.btn-success{
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+}
